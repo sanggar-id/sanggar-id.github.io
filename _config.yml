@@ -1,0 +1,15 @@
+# Site settings
+title: Sanggar
+tag_text: sanggar.dev
+description: Sanggar merupakan gapura software engineer untuk belajar pemrograman secara sederhana dan intuitif.
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
+# url: "https://example.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
